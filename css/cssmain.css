@@ -277,7 +277,8 @@ position: absolute;
     text-align: center;
     transform: translate(0,0%);
     transform-origin: center;
-    top: 35%;
+    top: 25%;
+    font-size: 1rem;
 }
 
 
@@ -371,7 +372,6 @@ iframe {
     width: 60%;
     border-top: 1px solid;
     opacity: 100%;
-    top: -1.5rem;
 }
 
 
@@ -416,7 +416,22 @@ iframe {
   }
 
 
+.repo-div {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
 
+.repo-links {
+    text-decoration: none;
+    color: #F4F4F4;
+}
+.repo-links:hover {
+    text-decoration: underline;
+    color: #F4F4F4;
+}
 
 /* DESKTOP MEDIA */
 /* DESKTOP MEDIA */
@@ -795,5 +810,9 @@ iframe {
 
 
   }
+
+
+
+
 
 
