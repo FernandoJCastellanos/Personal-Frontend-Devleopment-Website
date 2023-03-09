@@ -1,12 +1,155 @@
-
 // HAPPY FACE LOTTIE ANIMATION
 const animation = bodymovin.loadAnimation({
-    container: document.getElementById('happy-face'),
-    renderer: "svg",
-    loop: false,
-    autoplay: true,
-    path: 'data.json'
-})
+  container: document.getElementById("happy-face"),
+  renderer: "svg",
+  loop: false,
+  autoplay: true,
+  path: "data.json",
+});
+
+
+
+
+
+
+
+
+
+// Movie Mobile App React Native
+// Movie Mobile App React Native
+
+// java image
+document.querySelector("#youtubeMovieAppJava").onclick = function () {
+    // java video
+    const youtubeMovieApp = document.querySelector(
+      "#youtubeMovieAppPlayerJava"
+    );
+  
+    youtubeMovieApp.style.display = "block";
+  };
+  
+  // Elements Selected
+  
+  // box to look
+  var MovieAppBox = document.querySelector(".MovieAppBox");
+  // text to attach
+  var MovieAppText = document.querySelector(".MovieAppText");
+  
+  // Resize observer Set
+  // rename observer function
+  const MovieAppTextTextObserver = new ResizeObserver((entries) => {
+    const element = entries[0];
+    const elementHeightLog = element.contentRect.height;
+    // change text to attach
+    MovieAppText.style.height = elementHeightLog + "px";
+  });
+  
+  // change box to look
+  MovieAppTextTextObserver.observe(MovieAppBox);
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Dropdown Menu Java
+// Dropdown Menu Java
+
+// java image
+document.querySelector("#youtubeDropDownMenuJava").onclick = function () {
+    // java video
+    const youtubeDropDownMenu = document.querySelector(
+      "#youtubeDropDownMenuPlayerJava"
+    );
+  
+    youtubeDropDownMenu.style.display = "block";
+  };
+  
+  // Elements Selected
+  
+  // box to look
+  var DropDownMenuBox = document.querySelector(".DropDownMenuBox");
+  // text to attach
+  var DropDownMenuText = document.querySelector(".DropDownMenuText");
+  
+  // Resize observer Set
+  // rename observer function
+  const DropDownMenuTextObserver = new ResizeObserver((entries) => {
+    const element = entries[0];
+    const elementHeightLog = element.contentRect.height;
+    // change text to attach
+    DropDownMenuText.style.height = elementHeightLog + "px";
+  });
+  
+  // change box to look
+  DropDownMenuTextObserver.observe(DropDownMenuBox);
+  
+  
+  
+
+
+
+
+
+
+
+
+
+// Sneaker Ecommerce Store
+// Sneaker Ecommerce Store
+
+// java image
+document.querySelector("#youtubeSneakerEcommerceJava").onclick = function () {
+    // java video
+    const youtubeSneakerEcommerce = document.querySelector(
+      "#youtubeSneakerEcommercePlayerJava"
+    );
+  
+    youtubeSneakerEcommerce.style.display = "block";
+  };
+  
+  // Elements Selected
+  
+  // box to look
+  var SneakerEcommerceBox = document.querySelector(".SneakerEcommerceBox");
+  // text to attach
+  var SneakerEcommerceText = document.querySelector(".SneakerEcommerceText");
+  
+  // Resize observer Set
+  // rename observer function
+  const SneakerEcommerceTextTextObserver = new ResizeObserver((entries) => {
+    const element = entries[0];
+    const elementHeightLog = element.contentRect.height;
+    // change text to attach
+    SneakerEcommerceText.style.height = elementHeightLog + "px";
+  });
+  
+  // change box to look
+  SneakerEcommerceTextTextObserver.observe(SneakerEcommerceBox);
+  
+
+
+
+
+
 
 
 
@@ -17,34 +160,37 @@ const animation = bodymovin.loadAnimation({
 // spaceTourism Java
 
 // java image
-document.querySelector("#youtubeSpaceTourismJava").onclick = function() {
-    // java video
-        const youtubeSpaceTourism = document.querySelector("#youtubeSpaceTourismPlayerJava");
-    
-        youtubeSpaceTourism.style.display = "block";
-    
-        };
-    
-    
-    // Elements Selected
-    
-    // box to look
-    var spaceTourismBox = document.querySelector(".spaceTourismBox");
-    // text to attach
-    var spaceTourismText = document.querySelector(".spaceTourismText");
-    
-    
-    // Resize observer Set
-    // rename observer function
-    const spaceTourismTextObserver = new ResizeObserver(entries =>{
-    const element = entries[0];
-    const elementHeightLog = element.contentRect.height;
-    // change text to attach
-    spaceTourismText.style.height = elementHeightLog + "px";
-    });
-    
-    // change box to look
-    spaceTourismTextObserver.observe(spaceTourismBox);
+document.querySelector("#youtubeSpaceTourismJava").onclick = function () {
+  // java video
+  const youtubeSpaceTourism = document.querySelector(
+    "#youtubeSpaceTourismPlayerJava"
+  );
+
+  youtubeSpaceTourism.style.display = "block";
+};
+
+// Elements Selected
+
+// box to look
+var spaceTourismBox = document.querySelector(".spaceTourismBox");
+// text to attach
+var spaceTourismText = document.querySelector(".spaceTourismText");
+
+// Resize observer Set
+// rename observer function
+const spaceTourismTextObserver = new ResizeObserver((entries) => {
+  const element = entries[0];
+  const elementHeightLog = element.contentRect.height;
+  // change text to attach
+  spaceTourismText.style.height = elementHeightLog + "px";
+});
+
+// change box to look
+spaceTourismTextObserver.observe(spaceTourismBox);
+
+
+
+
 
 
 
@@ -58,34 +204,38 @@ document.querySelector("#youtubeSpaceTourismJava").onclick = function() {
 // baseApparel Java
 
 // java image
-document.querySelector("#youtubeBaseApparelJava").onclick = function() {
-    // java video
-        const youtubeBaseApparel = document.querySelector("#youtubeBaseApparelPlayerJava");
-    
-        youtubeBaseApparel.style.display = "block";
-    
-        };
-    
-    
-    // Elements Selected
-    
-    // box to look
-    var baseApparelBox = document.querySelector(".baseApparelBox");
-    // text to attach
-    var baseApparelText = document.querySelector(".baseApparelText");
-    
-    
-    // Resize observer Set
-    // rename observer function
-    const baseApparelTextTextObserver = new ResizeObserver(entries =>{
-    const element = entries[0];
-    const elementHeightLog = element.contentRect.height;
-    // change text to attach
-    baseApparelText.style.height = elementHeightLog + "px";
-    });
-    
-    // change box to look
-    baseApparelTextTextObserver.observe(baseApparelBox);
+document.querySelector("#youtubeBaseApparelJava").onclick = function () {
+  // java video
+  const youtubeBaseApparel = document.querySelector(
+    "#youtubeBaseApparelPlayerJava"
+  );
+
+  youtubeBaseApparel.style.display = "block";
+};
+
+// Elements Selected
+
+// box to look
+var baseApparelBox = document.querySelector(".baseApparelBox");
+// text to attach
+var baseApparelText = document.querySelector(".baseApparelText");
+
+// Resize observer Set
+// rename observer function
+const baseApparelTextTextObserver = new ResizeObserver((entries) => {
+  const element = entries[0];
+  const elementHeightLog = element.contentRect.height;
+  // change text to attach
+  baseApparelText.style.height = elementHeightLog + "px";
+});
+
+// change box to look
+baseApparelTextTextObserver.observe(baseApparelBox);
+
+
+
+
+
 
 
 
@@ -97,34 +247,36 @@ document.querySelector("#youtubeBaseApparelJava").onclick = function() {
 // sunnyside Java
 
 // java image
-document.querySelector("#youtubesunnysideJava").onclick = function() {
-    // java video
-        const youtubesunnyside = document.querySelector("#youtubesunnysidePlayerJava");
-    
-        youtubesunnyside.style.display = "block";
-    
-        };
-    
-    
-    // Elements Selected
-    
-    // box to look
-    var sunnysideBox = document.querySelector(".sunnysideBox");
-    // text to attach
-    var sunnysideText = document.querySelector(".sunnysideText");
-    
-    
-    // Resize observer Set
-    // rename observer function
-    const sunnysideTextObserver = new ResizeObserver(entries =>{
-    const element = entries[0];
-    const elementHeightLog = element.contentRect.height;
-    // change text to attach
-    sunnysideText.style.height = elementHeightLog + "px";
-    });
-    
-    // change box to look
-    sunnysideTextObserver.observe(sunnysideBox);
+document.querySelector("#youtubesunnysideJava").onclick = function () {
+  // java video
+  const youtubesunnyside = document.querySelector(
+    "#youtubesunnysidePlayerJava"
+  );
+
+  youtubesunnyside.style.display = "block";
+};
+
+// Elements Selected
+
+// box to look
+var sunnysideBox = document.querySelector(".sunnysideBox");
+// text to attach
+var sunnysideText = document.querySelector(".sunnysideText");
+
+// Resize observer Set
+// rename observer function
+const sunnysideTextObserver = new ResizeObserver((entries) => {
+  const element = entries[0];
+  const elementHeightLog = element.contentRect.height;
+  // change text to attach
+  sunnysideText.style.height = elementHeightLog + "px";
+});
+
+// change box to look
+sunnysideTextObserver.observe(sunnysideBox);
+
+
+
 
 
 
@@ -137,33 +289,34 @@ document.querySelector("#youtubesunnysideJava").onclick = function() {
 // ArtPlayer Java
 
 // java image
-document.querySelector("#youtubeArtJava").onclick = function() {
-    // java video
-        const youtubeArt = document.querySelector("#youtubeArtPlayerJava");
-    
-        youtubeArt.style.display = "block";
-    
-        };
-    
-    
-    // Elements Selected
-    
-    // box to look
-    var artBox = document.querySelector(".artBox");
-    // text to attach
-    var artText = document.querySelector(".artText");
-    
-    
-    // Resize observer Set
-    const artTextObserver = new ResizeObserver(entries =>{
-    const element = entries[0];
-    const elementHeightLog = element.contentRect.height;
-    // change text to attach
-    artText.style.height = elementHeightLog + "px";
-    });
-    
-    // change box to look
-    artTextObserver.observe(artBox);
+document.querySelector("#youtubeArtJava").onclick = function () {
+  // java video
+  const youtubeArt = document.querySelector("#youtubeArtPlayerJava");
+
+  youtubeArt.style.display = "block";
+};
+
+// Elements Selected
+
+// box to look
+var artBox = document.querySelector(".artBox");
+// text to attach
+var artText = document.querySelector(".artText");
+
+// Resize observer Set
+const artTextObserver = new ResizeObserver((entries) => {
+  const element = entries[0];
+  const elementHeightLog = element.contentRect.height;
+  // change text to attach
+  artText.style.height = elementHeightLog + "px";
+});
+
+// change box to look
+artTextObserver.observe(artBox);
+
+
+
+
 
 
 
@@ -173,33 +326,32 @@ document.querySelector("#youtubeArtJava").onclick = function() {
 // DrumKitPlayer Java
 
 // java image
-document.querySelector("#youtubeDrumKitJava").onclick = function() {
-    // java video
-        const youtubeDrumKit = document.querySelector("#youtubeDrumKitplayerJava");
-    
-        youtubeDrumKit.style.display = "block";
-    
-        };
-    
-    
-    // Elements Selected
-    
-    // box to look
-    var drumkitBox = document.querySelector(".drumkitBox");
-    // text to attach
-    var drumkitText = document.querySelector(".drumkitText");
-    
-    
-    // Resize observer Set
-    const drumkitTextObserver = new ResizeObserver(entries =>{
-    const element = entries[0];
-    const elementHeightLog = element.contentRect.height;
-    // change text to attach
-    drumkitText.style.height = elementHeightLog + "px";
-    });
-    
-    // change box to look
-    drumkitTextObserver.observe(drumkitBox);
+document.querySelector("#youtubeDrumKitJava").onclick = function () {
+  // java video
+  const youtubeDrumKit = document.querySelector("#youtubeDrumKitplayerJava");
+
+  youtubeDrumKit.style.display = "block";
+};
+
+// Elements Selected
+
+// box to look
+var drumkitBox = document.querySelector(".drumkitBox");
+// text to attach
+var drumkitText = document.querySelector(".drumkitText");
+
+// Resize observer Set
+const drumkitTextObserver = new ResizeObserver((entries) => {
+  const element = entries[0];
+  const elementHeightLog = element.contentRect.height;
+  // change text to attach
+  drumkitText.style.height = elementHeightLog + "px";
+});
+
+// change box to look
+drumkitTextObserver.observe(drumkitBox);
+
+
 
 
 
@@ -212,14 +364,12 @@ document.querySelector("#youtubeDrumKitJava").onclick = function() {
 // TinDogPlayer Java
 
 // java image
-document.querySelector("#youtubeTinDogJava").onclick = function() {
-// java video
-    const youtubeTinDog = document.querySelector("#youtubeTinDogPlayerJava");
+document.querySelector("#youtubeTinDogJava").onclick = function () {
+  // java video
+  const youtubeTinDog = document.querySelector("#youtubeTinDogPlayerJava");
 
-    youtubeTinDog.style.display = "block";
-
-    };
-
+  youtubeTinDog.style.display = "block";
+};
 
 // Elements Selected
 
@@ -228,22 +378,13 @@ var tinDogBox = document.querySelector(".tindogBox");
 // text to attach
 var tinDogText = document.querySelector(".tinDogText");
 
-
 // Resize observer Set
-const tindogTextObserver = new ResizeObserver(entries =>{
-const element = entries[0];
-const elementHeightLog = element.contentRect.height;
-// change text to attach
-tinDogText.style.height = elementHeightLog + "px";
+const tindogTextObserver = new ResizeObserver((entries) => {
+  const element = entries[0];
+  const elementHeightLog = element.contentRect.height;
+  // change text to attach
+  tinDogText.style.height = elementHeightLog + "px";
 });
 
 // change box to look
 tindogTextObserver.observe(tinDogBox);
-
-
-
-
-
-
-
-
