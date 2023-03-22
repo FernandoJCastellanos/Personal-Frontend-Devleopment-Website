@@ -280,6 +280,17 @@ position: absolute;
     top: 25%;
     font-size: 1rem;
 }
+.long-text-body{
+    color:#ffff !important;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    transform: translate(0,0%);
+    transform-origin: center;
+    top: 25%;
+    font-size: 1rem;
+
+}
 
 
 .player__overlay {
@@ -416,12 +427,18 @@ iframe {
   }
 
 
+.DropDown-display{
+    display: none;
+    justify-content: center;
+}
+
+
 .repo-div {
     position: relative;
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .repo-links {
@@ -433,6 +450,9 @@ iframe {
     color: #F4F4F4;
 }
 
+
+
+
 /* DESKTOP MEDIA */
 /* DESKTOP MEDIA */
 /* DESKTOP MEDIA */
@@ -440,7 +460,7 @@ iframe {
 
 
 
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
 
 
 
@@ -714,6 +734,19 @@ text-decoration: underline;
     top: 35%;
 }
 
+.long-text-body{
+    color:#ffff !important;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    transform: translate(0,0%);
+    transform-origin: center;
+    top: 20%;
+    font-size: 1rem;
+
+}
+
+
 
 .player__overlay {
     position: absolute;
@@ -789,9 +822,11 @@ iframe {
 
 
 .hr-div-3 {
-    position: relative;
-    display: none;
-    justify-content: center;
+
+        position: relative;
+        display: none;
+        justify-content: center;
+
 
 }
 

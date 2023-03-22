@@ -9,6 +9,40 @@ const animation = bodymovin.loadAnimation({
 
 
 
+// Recipe Website React
+// Recipe Website React
+
+// java image
+document.querySelector("#youtubeRecipeWebsiteJava").onclick = function () {
+  // java video
+  const youtubeRecipeWebsite = document.querySelector(
+    "#youtubeRecipeWebsitePlayerJava"
+  );
+
+  youtubeRecipeWebsite.style.display = "block";
+};
+
+// Elements Selected
+
+// box to look
+var RecipeWebsiteBox = document.querySelector(".RecipeWebsiteBox");
+// text to attach
+var RecipeWebsiteText = document.querySelector(".RecipeWebsiteText");
+
+// Resize observer Set
+// rename observer function
+const RecipeWebsiteTextTextObserver = new ResizeObserver((entries) => {
+  const element = entries[0];
+  const elementHeightLog = element.contentRect.height;
+  // change text to attach
+  RecipeWebsiteText.style.height = elementHeightLog + "px";
+});
+
+// change box to look
+RecipeWebsiteTextTextObserver.observe(RecipeWebsiteBox);
+
+
+
 
 
 
@@ -53,23 +87,6 @@ document.querySelector("#youtubeMovieAppJava").onclick = function () {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Dropdown Menu Java
 // Dropdown Menu Java
 
@@ -77,7 +94,7 @@ document.querySelector("#youtubeMovieAppJava").onclick = function () {
 document.querySelector("#youtubeDropDownMenuJava").onclick = function () {
     // java video
     const youtubeDropDownMenu = document.querySelector(
-      "#youtubeDropDownMenuPlayerJava"
+      "#youtubeDropDownPlayerJava"
     );
   
     youtubeDropDownMenu.style.display = "block";
