@@ -54,7 +54,28 @@ html,body
     color: #F4F4F4;
 }
 
+
+.about-cheers{
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: center; 
+    margin: auto;
+    padding-top: 6rem;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #F4F4F4;
+}
+
 /* Contact me */
+
+.social-margin{
+    margin-bottom: 1rem;
+
+}
+
+
 
 .social-div {
     background-color: #020202;
@@ -71,6 +92,7 @@ html,body
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     color: #F4F4F4;
+    margin-bottom: 0;
 }
 
 
@@ -78,6 +100,7 @@ html,body
     position: relative;
     display: flex;
     justify-content: center;
+    
 }
 
 .social-email-icon {
@@ -107,6 +130,7 @@ html,body
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .social-cv-icon {
     width: 1.7rem;
@@ -389,6 +413,13 @@ iframe {
 /* display */
 
 
+.MovieMobileApp-display {
+    display: none;
+    justify-content: center;
+  }
+
+
+
 .spaceTourism-display {
     display: none;
     justify-content: center;
@@ -509,6 +540,14 @@ iframe {
 }
 
 /* Contact me */
+
+.social-margin{
+    margin-bottom: 1rem;
+
+}
+
+
+
 
 .social-div {
     background-color: #020202;

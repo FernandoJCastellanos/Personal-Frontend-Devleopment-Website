@@ -9,6 +9,56 @@ const animation = bodymovin.loadAnimation({
 
 
 
+
+
+
+
+
+// CryptoVerse React Website
+// CryptoVerse React Website
+
+// java image
+document.querySelector("#youtubeCryptoVerseJava").onclick = function () {
+  // java video
+  const youtubeCryptoVerse = document.querySelector(
+    "#youtubeCryptoVersePlayerJava"
+  );
+
+  youtubeCryptoVerse.style.display = "block";
+};
+
+// Elements Selected
+
+// box to look
+var CryptoVerseBox = document.querySelector(".CryptoVerseBox");
+// text to attach
+var CryptoVerseText = document.querySelector(".CryptoVerseText");
+
+// Resize observer Set
+// rename observer function
+const CryptoVerseTextTextObserver = new ResizeObserver((entries) => {
+  const element = entries[0];
+  const elementHeightLog = element.contentRect.height;
+  // change text to attach
+  CryptoVerseText.style.height = elementHeightLog + "px";
+});
+
+// change box to look
+CryptoVerseTextTextObserver.observe(CryptoVerseBox);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Recipe Website React
 // Recipe Website React
 
@@ -40,6 +90,9 @@ const RecipeWebsiteTextTextObserver = new ResizeObserver((entries) => {
 
 // change box to look
 RecipeWebsiteTextTextObserver.observe(RecipeWebsiteBox);
+
+
+
 
 
 
@@ -81,6 +134,11 @@ document.querySelector("#youtubeMovieAppJava").onclick = function () {
   // change box to look
   MovieAppTextTextObserver.observe(MovieAppBox);
   
+
+
+
+
+
 
 
 
