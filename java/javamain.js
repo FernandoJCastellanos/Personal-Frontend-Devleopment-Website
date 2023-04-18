@@ -14,6 +14,56 @@ const animation = bodymovin.loadAnimation({
 
 
 
+// Nike Ecommerce React Native App
+// Nike Ecommerce React Native App
+
+// java image
+document.querySelector("#youtubeNikeEcommerce").onclick = function () {
+  // java video
+  const youtubeNikeEcommerce = document.querySelector(
+    "#youtubeNikeEcommercePlayerJava"
+  );
+
+  youtubeNikeEcommerce.style.display = "block";
+};
+
+// Elements Selected
+
+// box to look
+var NikeEcommerceBox = document.querySelector(".NikeEcommerceBox");
+// text to attach
+var NikeEcommerceText = document.querySelector(".NikeEcommerceText");
+
+// Resize observer Set
+// rename observer function
+const NikeEcommerceTextTextObserver = new ResizeObserver((entries) => {
+  const element = entries[0];
+  const elementHeightLog = element.contentRect.height;
+  // change text to attach
+  NikeEcommerceText.style.height = elementHeightLog + "px";
+});
+
+// change box to look
+NikeEcommerceTextTextObserver.observe(NikeEcommerceBox);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // CryptoVerse React Website
 // CryptoVerse React Website
 
@@ -136,49 +186,6 @@ document.querySelector("#youtubeMovieAppJava").onclick = function () {
   
 
 
-
-
-
-
-
-
-
-
-
-// Dropdown Menu Java
-// Dropdown Menu Java
-
-// java image
-document.querySelector("#youtubeDropDownMenuJava").onclick = function () {
-    // java video
-    const youtubeDropDownMenu = document.querySelector(
-      "#youtubeDropDownPlayerJava"
-    );
-  
-    youtubeDropDownMenu.style.display = "block";
-  };
-  
-  // Elements Selected
-  
-  // box to look
-  var DropDownMenuBox = document.querySelector(".DropDownMenuBox");
-  // text to attach
-  var DropDownMenuText = document.querySelector(".DropDownMenuText");
-  
-  // Resize observer Set
-  // rename observer function
-  const DropDownMenuTextObserver = new ResizeObserver((entries) => {
-    const element = entries[0];
-    const elementHeightLog = element.contentRect.height;
-    // change text to attach
-    DropDownMenuText.style.height = elementHeightLog + "px";
-  });
-  
-  // change box to look
-  DropDownMenuTextObserver.observe(DropDownMenuBox);
-  
-  
-  
 
 
 
